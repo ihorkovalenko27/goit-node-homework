@@ -47,7 +47,7 @@ async function addContact(name, email, phone) {
     };
     contactsList.push(newUser);
     await fs.writeFile(contactsPath, JSON.stringify(contactsList));
-    return newUser;
+    return console.table(newUser);
   } catch (error) {
     console.log(error);
   }
