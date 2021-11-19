@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihorkovalenko27/goit-node-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihorkovalenko27/goit-node-homework/issues"
+  },
+  "homepage": "https://github.com/ihorkovalenko27/goit-node-homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "shortid": "^2.2.16",
+    "uuidv4": "^6.2.12"
+  }
+}
